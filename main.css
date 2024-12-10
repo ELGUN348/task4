@@ -206,9 +206,10 @@
 .img2{
 
 }
-@media screen and (max-width:414px) {
+@media screen and (max-width:768px) {
     .container{
         width: 414px;
+        margin-left: 60px;
     }
     .menyu{
         max-width: 768px;
@@ -331,6 +332,7 @@
     }
     .footer-dovnload{
         background-color: #252B42;
+        margin-left: 20px;
     }
      .footer-h1{
         margin-left: 65px;
