@@ -254,13 +254,13 @@
         align-items: center;
         justify-content: start;
         color: #252B42;
-        margin-left: 70px;
+        margin-left: 90px;
     }
     .food-h3{
         height: 96px;
         width: 362px;
         color: #737373;
-        margin-left: 20px;
+        margin-left: 40px;
     }
     .food-btn{
         margin-top: 80px;
@@ -333,7 +333,7 @@
         background-color: #252B42;
     }
      .footer-h1{
-        margin-left: 50px;
+        margin-left: 65px;
         width: 310px;
         height: 114px;
      }
@@ -343,7 +343,7 @@
      .footer-h3{
         display: flex;
         color: #BDBDBD;
-        margin-left: 100px;
+        margin-left: 115px;
         margin-top: 110px;
         width: 245px;
         height: 76px;
@@ -384,6 +384,7 @@
         display: flex;
         justify-content: center;
         gap: 10px;
+        margin-left: 20px;
      }
      .img1{
         display: none;
