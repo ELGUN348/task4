@@ -44,12 +44,10 @@
     font-weight: 700;
 }
 .food-h1{
-    width: 937px;
+    width: 1003px;
     height: 160px;
-    margin-left: 600px;
-    padding-top: 50px;
     color: #F6F6F6;
-    font-size: 60px;
+    font-size: 81px;
     font-weight: 700;
 }
 .food-h3{
@@ -58,6 +56,13 @@
     color: white;
     font-size: 27px;
     font-weight: 500;
+}
+.food-text-h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding-left: 20px;
 }
 .food-btn3{
     display: none;
@@ -68,8 +73,17 @@
 .food-btn4{
     display: none;
 }
+.fd-btn{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+.fd-btn2{
+    /* margin-top: 40px;
+    display: flex;
+    justify-content: center; */
+}
 .food-btn{
-   margin-top: 50px;
     width: 236px;
     height: 68px;
     border-radius: 30px;
@@ -78,7 +92,6 @@
     color: #F6F6F6;
     font-size: 20px;
     font-weight: 500;
-    margin-left: 700px;
 }
 .food-btn2{
         width: 236px;
@@ -91,14 +104,21 @@
         font-weight: 500;
 }
 .logo-img{
-    position: absolute;
-    top: 78%;
-    left: 29%;
+   width: 600px;
+   position: absolute;
+   top: 90%;
+}
+.logo-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    padding-right: 100px;   
 }
 .left-img{
-    width:1180px;
+    display: flex;
+    justify-content: center;
+    width:1300px;
     height: 1px;
-    border: 1px solid black;
     margin-top: 700px;
     margin-left: 370px;
 }
@@ -190,6 +210,33 @@
 .footer-h3{
     display: none;
 }
+.food-btn12{
+    width: 142px;
+    height: 64px;
+    border-radius: 10px;
+    border: 0;
+    background-color: #FA4A0C;
+    color: #F6F6F6;
+    font-size: 20px;
+    font-weight: 500;
+}
+.fd-btn2{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+.food-btn13{
+    width: 173px;
+    height: 60px;
+    padding: 16px 45px;
+     margin-left: 20px;
+    border-radius: 30px;
+    background-color: none;
+    border: 0;
+    font-size: 16px;
+    font-weight: 700;
+    color: #737373;
+}
 .footer-intagram{
     display: flex;
     justify-content: space-around;
@@ -259,7 +306,6 @@
         align-items: center;
         justify-content: start;
         color: #252B42;
-        margin-left: 75px;
     }
     .food-h3{
         height: 96px;
@@ -359,6 +405,12 @@
         display: none;
      }
      .food-btn2{
+        display: none;
+     }
+     .food-btn12{
+        display: none;
+     }
+     .food-btn13{
         display: none;
      }
      .food-btn3{
